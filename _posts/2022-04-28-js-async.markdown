@@ -1,0 +1,93 @@
+---
+layout: post
+title:  "async"
+date:   2022-04-28 00:37:48 +0800
+categories: jekyll update
+---
+
+## promise
+
+`Promise.all(iterable)` 全部， 一个失败就停止
+
+`Promise.allSettled(iterable)` 全部，即使有失败也不停止
+
+`Promise.any(iterable)` 一个成功就停止
+
+`Promise.race(iterable)` 一个成功或失败就停止
+
+## thunk 实现
+
+```js
+const Thunk=(fn)=>{
+    return function(){
+        var args = Array.prototype.slice.call(arguments);
+        return function (callback){
+            args.push(callback);
+            return fn.apply(this,args);
+        }
+    }
+}
+
+const readFile = (data, callback) => {
+    setTimeout(() => {
+        callback(data)
+    }, 1000)
+}
+
+const readFileThunk = Thunk(readFile);
+readFileThunk('fileName')((data) => {
+    console.log('data', data);
+})
+```
+
+## generate function
+
+```js
+function* gen(x){
+    var y = yield x + 2;
+    return y;
+}
+
+var g = gen(1);
+const result1= g.next()
+console.log(result1) // { value: 3, done: false }
+const result2 = g.next(1)
+console.log(result2); // { value: 1, done: true }
+
+
+```
+
+## co
+
+## event loop
+
+https://www.ruanyifeng.com/blog/2014/10/event-loop.html
+
+### microtask macrotask
+
+![img.png](/assets/event_loop.png)
+```js
+setTimeout(() => alert("timeout"));
+
+Promise.resolve()
+  .then(() => alert("promise"));
+
+alert("code");
+
+// code
+// promise
+// timeout
+```
+
+```js
+console.log(1);
+setTimeout(() => console.log(2));
+Promise.resolve().then(() => console.log(3));
+Promise.resolve().then(() => setTimeout(() => console.log(4)));
+Promise.resolve().then(() => console.log(5));
+setTimeout(() => console.log(6));
+console.log(7);
+// 1 7 3 5 2 6 4
+```
+
+

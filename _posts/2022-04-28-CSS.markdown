@@ -1,0 +1,83 @@
+---
+layout: post
+title:  "CSS"
+date:   2022-04-28 14:31:48 +0800
+categories: jekyll update
+---
+
+# CSS
+
+## Flex
+### container attribute
+1. `flex-wrap` 显示还是多行显示  `wrap` 多行  `nowrap` 不换行
+2.  `justify-content: center` 水平居中
+3. `align-items: center` 垂直居中
+
+### item attribute
+1. `order` 顺序
+![image](https://user-images.githubusercontent.com/451008/166264908-9e546815-79f6-49d1-b632-bc705b3f88c9.png)
+2. `flex-basis` 初始大小
+
+3. flex `第一个值` `第二个值` `第三个值`
+- 第一个值 `flex-grow`, 父级的`剩余空间`按照比例进行压缩划分。
+![image](https://user-images.githubusercontent.com/451008/166292617-c8dc595e-d482-41c8-8678-5a7338470caa.png)
+
+- 第二个值 `flex-shrink`, 溢出部分 按照比例进行划分
+
+```
+width: 100
+flex-shrink: 1
+```
+
+```
+width: 200
+flex-shrink: 1
+```
+
+```
+width: 300
+flex-shrink: 1
+```
+
+
+`加权总和 = 每个元素的宽度 * flex-shrink值 的和`
+100 * 1 + 200 * 1 + 300 * 1  = 600
+
+`压缩率 =  (  flex-shrink * 多出width ) / 加权总和`
+
+item1
+`100 / 600 = 0.16666`
+`压缩宽度 = 0.1666 * 100 = 16.6`
+`宽度 = 100 - 16.6 = 83`
+item2
+`200 / 600 = 0.3333`
+`压缩宽度 = 0.3333 * 100 = 33.3`
+`宽度 = 200 - 33.3 = 166.6`
+item3
+`300 / 600 = 0.5`
+`压缩宽度 = 0.5 * 100 = 50`
+`宽度 = 300 - 50 = 250`
+
+- 第三个值 `flex-basis`
+
+
+## position
+
+static relative absolute
+
+## box model
+
+default: content-box
+
+```
+.box {
+  background: red;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+```
+
+
