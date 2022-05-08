@@ -70,7 +70,6 @@ for (const [key, value] of Object.entries(object1)) {
 
 2. defineProperty
 
-## String
 
 
 
