@@ -53,3 +53,5 @@ for ( var i = 0; i < elems.length; i++ ) {
 ```
 
 ## apply call bind
+
+## 继承
