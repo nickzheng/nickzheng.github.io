@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Array Object String"
+date:   2022-06-07 00:00:00 +0800
+categories: jekyll update
+---
+
+## React
+
+https://www.bilibili.com/video/BV1B5411h7W8
+
+1. react vue 
+2. react lifecycle
+https://www.youtube.com/watch?v=f3yRqkOFSCk
+![image](https://user-images.githubusercontent.com/451008/165982748-8d845cf8-2952-4898-b551-7deee7b83d04.png)
+![image](https://user-images.githubusercontent.com/451008/165982983-f7ea7e9d-ca87-42ed-b336-9f3a416a7cb0.png)
+
+
+
