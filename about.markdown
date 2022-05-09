@@ -32,12 +32,19 @@ I used to employ JavaScript technologies such as ReactJS, NodeJS (NestJS) to bui
 5. K8S
 6. Azure
 
+## Before EY
+
+1. Career start up as Front End Developer in HSBC  (Angular , CI/CD , Unit Test, E2E testing)
+2. Single Page Application (SPA)
+3. Alibaba
+4. Startup Company Team Leader. Build team.  WeChat H5, WeChat mini-programme
+
 ## EY
 
 **1. Local Hosting China Instance (Individual Contribute)**
 
-- Standardize the usage of React.
-- China Hosting http://blockchain.ey.com
+- Standardize the usage of Javascript/React.
+- China Hosting http://blockchain.ey.com to China
 - Migrate global Azure K8S to China Cluster (networking, deployment, service, Azure application gateway Ingress)
 - Replacing Authing with Auth0 as Identity as a service (IDaaS).
 - Standard Operating Procedure for Lokalise ----continuous localization and translation Solution
@@ -50,7 +57,6 @@ I used to employ JavaScript technologies such as ReactJS, NodeJS (NestJS) to bui
 - Transaction Manager (IaaS) Project supports Ganache Ethereum, Polygon
 - Apply Aspect Oriented Programming (AOP) in NodeJS using NestJS
 
-
 **3. EY Developer Portal (Tech Leader)**
 
 - Azure API Management
@@ -59,11 +65,4 @@ I used to employ JavaScript technologies such as ReactJS, NodeJS (NestJS) to bui
 - Blockchain Wallet Management
 - Integration Credentials
 - Organization Management
-
-
-## Previous
-
-1. career start up as Front End Developer in HSBC  (Angular , CI/CD , Unit Test, E2E testing)
-4. Alibaba
-5. Startup Company  WeChat H5,   WeChat mini-programme
 
