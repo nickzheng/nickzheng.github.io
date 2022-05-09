@@ -80,4 +80,20 @@ default: content-box
 }
 ```
 
+## nth-child
+```css
+div:nth-child(2) {
+  background: red;
+}
+
+/* Selects the second li element in a list */
+li:nth-child(2) {
+  background: lightgreen;
+}
+
+/* Selects every third element among any group of siblings */
+:nth-child(3) {
+  background: yellow;
+}
+```
 
