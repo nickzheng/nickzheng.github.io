@@ -32,14 +32,18 @@ I used to employ JavaScript technologies such as ReactJS, NodeJS (NestJS) to bui
 5. K8S
 6. Azure
 
-## Before EY
+## Start-up
 
-1. Career start up as Front End Developer in HSBC  (Angular , CI/CD , Unit Test, E2E testing)
-2. Single Page Application (SPA)
-3. Alibaba
-4. Startup Company Team Leader. Build team.  WeChat H5, WeChat mini-programme
+1. WeChat Ecosystem - H5, Mini Program, Payment, Notification...
+2. 潮流 电商 yeezy supreme essentials
+3. E-commerce, Social Media
 
-## EY
+## Alibaba 农村淘宝
+
+1. 解决最后一公里。
+2. 不到10%消费力
+
+## EY blockchain 溯源 采购
 
 **1. Local Hosting China Instance (Individual Contribute)**
 
@@ -53,9 +57,9 @@ I used to employ JavaScript technologies such as ReactJS, NodeJS (NestJS) to bui
 
 **2. Global Core Platform (Tech Leader)**
 
-- Lead and coach 4 India engineers
-- Transaction Manager (IaaS) Project supports Ganache Ethereum, Polygon
+- Transaction Manager Project supports `Ganache`, `Ethereum` and `Polygon`
 - Apply Aspect Oriented Programming (AOP) in NodeJS using NestJS
+- Lead and coach 4 engineers
 
 **3. EY Developer Portal (Tech Leader)**
 

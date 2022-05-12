@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Typescript"
+date:   2022-05-18 00:00:00 +0800
+categories: jekyll update
+---
+
+## Typescript
+
+### 1
