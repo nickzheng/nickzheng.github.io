@@ -32,13 +32,6 @@ I used to employ JavaScript technologies such as ReactJS, NodeJS (NestJS) to bui
 5. K8S
 6. Azure
 
-## Start-up
-
-1. Copycat PDD 拼多多电商
-2. 潮流电商 yeezy supreme essentials
-3. Social Media
-4. 数据打点 Event Tracking 
-5. WeChat Ecosystem - H5, Mini Program, Payment, Notification, Sharing...
 
 ## Alibaba 农村淘宝
 
@@ -46,6 +39,14 @@ I used to employ JavaScript technologies such as ReactJS, NodeJS (NestJS) to bui
 2. 上行
 3. 下行
 4. 不到10%消费力
+
+## Start-up
+
+1. Copycat PDD 拼多多电商
+2. 潮流电商 yeezy supreme essentials
+3. Social Media
+4. 数据打点 Event Tracking 
+5. WeChat Ecosystem - H5, Mini Program, Payment, Notification, Sharing...
 
 ## MultiNational Corp Digital Transformation
 
