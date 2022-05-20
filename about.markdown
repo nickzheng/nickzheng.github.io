@@ -49,7 +49,7 @@ I used to employ JavaScript technologies such as ReactJS, NodeJS (NestJS) to bui
 
 ## MultiNational Corp Digital Transformation
 
-1. Fast Moving Consumer Goods
+1. 快时尚 Fast Moving Consumer Goods
 
 ## EY blockchain SaaS Blockchain 溯源 采购
 
