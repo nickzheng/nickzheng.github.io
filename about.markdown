@@ -49,6 +49,8 @@ I used to employ JavaScript technologies such as ReactJS, NodeJS (NestJS) to bui
 
 ## MultiNational Corp Digital Transformation
 
+1. Fast Moving Consumer Goods
+
 ## EY blockchain SaaS Blockchain 溯源 采购
 
 **1. Local Hosting China Instance (Individual Contribute)**
