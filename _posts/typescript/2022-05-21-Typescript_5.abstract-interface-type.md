@@ -43,6 +43,7 @@ department.printMeeting();
 
 ## interface
 
+implement
 
 ## type 类型别名 vs Interface
 
