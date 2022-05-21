@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Typescript Utility Types"
+title:  "Typescript Advanced Types"
 date:   2022-05-21 00:00:00 +0800
 categories: Typescript
 ---
 
-## Utility Types
-https://www.typescriptlang.org/docs/handbook/utility-types.html
+## Advanced Types
+
+https://www.tslang.cn/docs/handbook/advanced-types.html
