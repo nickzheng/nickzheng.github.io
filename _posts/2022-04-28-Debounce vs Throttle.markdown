@@ -2,7 +2,7 @@
 layout: post
 title:  "Debounce vs Throttle"
 date:   2022-04-28 00:37:48 +0800
-categories: jekyll update
+categories: Javascript
 ---
 
 ![img.png](/assets/img.png)

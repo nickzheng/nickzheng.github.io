@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Array Object String"
+title:  "Javascript Array Object String"
 date:   2022-06-07 00:00:00 +0800
-categories: jekyll update
+categories: Javascript
 ---
 
 ## Array

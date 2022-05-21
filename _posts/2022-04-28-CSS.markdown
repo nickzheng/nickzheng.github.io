@@ -2,7 +2,7 @@
 layout: post
 title:  "CSS"
 date:   2022-04-28 14:31:48 +0800
-categories: jekyll update
+categories: CSS
 ---
 
 # CSS

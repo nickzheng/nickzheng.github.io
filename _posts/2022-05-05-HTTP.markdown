@@ -2,7 +2,7 @@
 layout: post
 title:  "HTTP"
 date:   2022-04-28 00:37:48 +0800
-categories: jekyll update
+categories: HTTP
 ---
 
 
