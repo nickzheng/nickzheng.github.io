@@ -198,9 +198,3 @@ const fullname=employee.fullName
 console.log(fullname);
 
 ```
-
-
-### `abstract`
-
-
-
