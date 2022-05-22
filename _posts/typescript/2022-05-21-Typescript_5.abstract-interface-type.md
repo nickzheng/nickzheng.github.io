@@ -43,7 +43,21 @@ department.printMeeting();
 
 ## interface
 
-implement
+1. implement
+2. index property
+
+```typescript
+
+interface ErrorContainer {
+  [prop: string]: string;
+}
+
+const errorBag: ErrorContainer = {
+  email: 'Not a valid email!',
+  username: 'Must start with a capital character!'
+};
+
+```
 
 ## type 类型别名 vs Interface
 
@@ -73,7 +87,7 @@ type Point = {
 type SetPoint = (x: number, y: number) => void;
 ```
 
-2. 联合类型 使用 Types
+2. 联合类型, 交叉类型（Intersection Types） 使用 Types
 
 ```typescript
 // primitive
@@ -90,6 +104,37 @@ type PartialPoint = PartialPointX | PartialPointY;
 type Data = [number, string];
 
 ```
+
+
+```typescript
+
+type Admin = {
+    name: string;
+    privileges: string[];
+};
+
+type Employee = {
+    name: string;
+    startDate: Date;
+};
+
+type ElevatedEmployee = Admin & Employee;
+
+const e1: ElevatedEmployee = {
+    name: 'Max',
+    privileges: ['create-server'],
+    startDate: new Date()
+};
+
+
+// more examples
+type Combinable = string | number;
+type Numeric = number | boolean;
+
+type Universal = Combinable & Numeric;
+
+```
+
 
 3. merge属性
 
