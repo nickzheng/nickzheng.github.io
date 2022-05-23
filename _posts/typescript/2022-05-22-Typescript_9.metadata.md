@@ -1,7 +1,7 @@
 ****---
 layout: post
 title:  "Typescript Metadata"
-date:   2022-05-23 00:00:00 +0800
+date:   2022-05-22 00:00:00 +0800
 categories: Typescript
 ---
 
