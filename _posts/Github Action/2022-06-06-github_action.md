@@ -34,3 +34,11 @@ https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
 https://docs.github.com/en/actions/learn-github-actions/environment-variables
 
 
+### GITHUB_TOKEN
+
+https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token
+
+
+### Context
+
+https://docs.github.com/cn/actions/learn-github-actions/contexts
